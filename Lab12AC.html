@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--My Lab 12 Avery Cranford H01 11/07/23-->
+<meta charset="utf-8">
+<title>Greeting Card</title>
+<style>
+body{
+background-Color:#00873E;
+}
+
+.card{
+border: 8px solid #D6001C;
+background-Color:white;
+color:#D6001C;
+height:600px;
+width:450px;
+position:absolute;
+top:100px;
+left:500px;
+text-align:center;
+font-size:65pt;
+padding:10px;
+}
+
+#snow{
+position:absolute;
+top:400px;
+left:625px;
+}
+</style>
+
+
+<script>
+function roll(){
+
+document.getElementById("snow").src="Lab12_Images/tree.jpg";
+
+}
+
+
+</script>
+
+</head>
+<body>
+
+<div class="card">
+Happy Holidays!
+</div>
+
+<img onmouseover="roll()" id="snow" height="250" width="250" src="Lab12_Images/snowman.jpg" alt="Snowman">
+
+
+
+</body>
+</html>
